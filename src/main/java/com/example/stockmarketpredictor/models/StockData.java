@@ -18,7 +18,7 @@ public class StockData {
         records = new ArrayList<>();
     }
 
-    //public StockData() { dateCompany = new HashMap<>(); }
+
 
     public StockRecord getRecordNumber(int i) {
         return records.get(i);
@@ -118,52 +118,6 @@ public class StockData {
 
 
 }
-    //... this is for ratio A ratioA= (todays high/ todays low) / (yesterdays high /yesterdays low)
-//    public StockRecord getTodaysHigh(){
-//
-//        StockRecord todaysHigh = records.get(0);
-//        for (StockRecord record : records) {
-//
-//        }
-//
-//        return null; }
-
-//    public StockRecord getTodaysLow() {
-//        //StockRecordtodelete highest = null;
-//
-//        StockRecord todaysLow = records.get(0);
-//        return StockRecord
-//
-//    }
-
-
-
-
-
-//   public StockRecord getYesterdaysHigh(){return null; }
-////
-//   public StockRecord getYesterdaysLow(){return null; }
-//
-//
-//
-//    // this is for ratio B  ratioB = (todays close/todays open) / (yesterdays close/ yesterdays open)
-//    public StockRecord getTodaysClose(){return null; }
-//
-//    public StockRecord getTodaysOpen(){
-//        return null; }
-//
-//    public StockRecord getYesterdaysClose(){return null; }
-//
-//    public StockRecord getYesterdaysOpen(){return null; }
-//
-//
-//
-//
-//    // this is for ratio C  ratioC = (todays volume / yesterdays volume)
-//
-//    public StockRecord getTodaysVolume(){return null; }
-//
-//    public StockRecord getYesterdaysVolume(){return null; }
 
 
 
